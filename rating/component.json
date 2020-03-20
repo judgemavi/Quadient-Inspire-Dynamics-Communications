@@ -1,0 +1,59 @@
+{
+  "name": "Rating",
+  "displayName": "Rating",
+  "version": "1.0.0",
+  "compatibility": 3,
+  "tags": ["Forms"],
+  "libraries": ["bobril-mouse", "number-format"],
+  "displayType": "Block",
+  "styled": true,
+  "styles": {
+    "iconStyle": {
+      "displayName": "Icon Style",
+      "definition": {
+        "style": {
+          "display": "inline-block",
+          "-webkit-text-stroke-width": "1px",
+          "-webkit-text-stroke-color": "orange",
+          "color": "orange"
+        }
+      }
+    },
+    "selectedStyle": {
+      "displayName": "Selected Rating",
+      "definition": {
+        "style": {
+          "-webkit-text-stroke-width": "1px",
+          "-webkit-text-stroke-color": "orange",
+          "color": "orange"
+        }
+      }
+    }
+  },
+  "properties": {
+    "RatingIcon": {
+      "type": "String",
+      "default": "fas fa-star"
+    },
+    "MinValue": {
+      "type": "Int",
+      "default": 1
+    },
+    "MaxValue": {
+      "type": "Int",
+      "default": 5
+    }
+  },
+  "data": {
+    "type": "Subtree",
+    "fields": {
+      "Value": {
+        "type": "Number",
+        "ioType": "InputOutput"
+      }
+    }
+  },
+  "defaultData": {
+    "Value": 2
+  }
+}

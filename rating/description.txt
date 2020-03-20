@@ -1,0 +1,3 @@
+﻿<B>Rating Input – Inset a rating input component for specified font awesome.</B>
+   Available mapping fields:
+      - Value: Integer – Specifies an input/output variable containing the rating value. 
