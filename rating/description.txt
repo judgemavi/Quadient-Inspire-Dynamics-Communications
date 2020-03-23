@@ -1,3 +1,10 @@
-﻿<B>Rating Input – Inset a rating input component for specified font awesome.</B>
+﻿<B>Rating Input – Inset a rating input component for specified font awesome. Please include reference the location to your font-awesome.min.css in HTML head</B>
+   Available properties:
+      - RatingIcon: Name of fontawesome.
+      - MinValue: Minimum rating.
+      - MaxValue: Maximum rating.
+   Available Styles:
+      - Icon Style: Applied to all rating icons.
+      - Selected Styles: Applied to rating currently selected and everything lower than it.
    Available mapping fields:
       - Value: Integer – Specifies an input/output variable containing the rating value. 
