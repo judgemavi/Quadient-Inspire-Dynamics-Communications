@@ -1,0 +1,2 @@
+﻿<B>FormatNumber – Create an area for formatted value of a number.</B>
+    Formatting of component is done on its Properties tab.

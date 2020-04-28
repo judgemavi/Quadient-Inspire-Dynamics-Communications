@@ -1,0 +1,29 @@
+{
+    "name": "FormattedNumber",
+    "displayName": "Formatted Number",
+    "version": "1.0.1",
+    "compatibility": 2,
+    "displayType": "Inline",
+    "tags": ["Elements"],
+    "libraries": [
+        "number-format"
+    ],
+    "properties": {
+        "NumberFormat": {
+            "type": "String",
+            "default": "#,##0.00"
+        }
+    },
+    "data": {
+        "type": "Subtree",
+        "fields": {
+            "Number": {
+                "type": "Number",
+                "ioType": "Input"
+            }
+        }
+    },
+    "defaultData": {
+        "Number": 12.58147
+    }
+}
